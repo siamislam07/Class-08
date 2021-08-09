@@ -1,0 +1,88 @@
+.bg{
+	color: white;
+	background-image: url(../imag/pexels-abdullah-ghatasheh-1631677.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.parent{
+	transition: 0.9s;
+}
+
+.parent:hover{
+	color: pink;
+	background-color: lightcoral;
+	
+}
+.samework:hover{
+	color: white;
+	background-color: gray;
+}
+button:focus{
+	color: white;
+	background-color: black;
+}
+p:focus{
+	color: white;
+	background-color: black;
+}
+
+h3:first-child{
+	background-color: orange;
+}
+
+strong:nth-child(1){
+	background-color: lawngreen;
+}
+
+.firstletter::first-letter{
+	
+	color: gray;
+	font-size: 50px;
+
+}
+.lastletter::first-line{
+	color: gray;
+	font-size: 50px;
+}
+
+.parent2::before, .parent2::after{
+	content: "";
+	width: 75%;
+	height: 50px;
+	background-color:blue;
+	display: inline-block;                                                              ;
+
+}
+
+::selection{
+	color: red;
+	background-color: yellow;
+}
+
+.parent3{
+	overflow: hidden;
+}
+
+.child2{
+	float: left;
+	width: 30%;
+	height: 200px;
+	background-color: tomato;
+}
+
+.child3{
+	float:right;
+	width: 30%;
+	height: 200px;
+	background-color: lightsalmon;
+	
+}
+.child4{
+	float: right;
+	width: 40%;
+	height: 200px;
+	background-color: coral;
+
+}
